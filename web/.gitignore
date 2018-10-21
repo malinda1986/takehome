@@ -1,0 +1,18 @@
+dist
+node_modules
+yarn.lock
+npm-debug.log
+
+web/node_modules
+api/node_modules
+# ide
+.idea
+
+# Mac General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# umi
+.umi
+.umi-production

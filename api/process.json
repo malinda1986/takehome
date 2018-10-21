@@ -1,0 +1,27 @@
+{
+  "apps": [{
+    "name": "Sewa",
+    "script": "index.js",
+    "instances" : "max",
+    "exec_mode" : "cluster",
+    "cwd" : "",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },{
+    "name": "Sewa -dev",
+    "script": "index.js",
+    "instances" : "max",
+    "exec_mode" : "cluster",
+    "cwd" : "",
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "watch": true,
+    "ignore_watch" : ["node_modules"],
+    "watch_options": {
+      "followSymlinks": false,
+      "usePolling": true
+    }
+  }]
+}

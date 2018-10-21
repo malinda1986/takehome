@@ -1,0 +1,13 @@
+{
+    "hostname": "",
+    "mongo": {
+        "host": "localhost:27017",
+        "db": "local"
+    },
+    "port": "8080",
+    "loggly": {
+        "token": "",
+        "subdomain": ""
+    },
+    "log_level": "error"
+}

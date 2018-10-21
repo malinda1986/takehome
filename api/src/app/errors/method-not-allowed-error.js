@@ -1,0 +1,11 @@
+function MethodNotAllowedError(message) {
+    this.message = message;
+    this.stack = new Error().stack;
+    this.statusCode = 405;
+    this.errorType = this.name;
+}
+
+MethodNotAllowedError.prototype = Object.create(Error.prototype);
+MethodNotAllowedError.prototype.name = 'MethodNotAllowedError';
+
+module.exports = MethodNotAllowedError;

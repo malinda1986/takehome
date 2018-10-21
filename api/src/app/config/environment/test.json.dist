@@ -1,0 +1,15 @@
+{
+    "hostname": ".dev",
+    "dynamo": {
+        "region" : "us-west-1",
+        "endpoint" : "http://localhost:8000",
+        "accessKeyId" : "",
+        "secretAccessKey" : ""
+    },
+    "port": "8350",
+    "loggly": {
+        "token": "",
+        "subdomain": ""
+    },
+    "log_level": "error"
+}

@@ -1,0 +1,23 @@
+{
+    "hostname": "dev",
+    "mongo_url": "mongodb://127.0.0.1/api",
+    "mongo" : {
+        "host": "127.0.0.1",
+        "db": "seva"
+    },
+    "api": {
+        "version" : 1,
+        "app_path": "/api/v1",
+        "dashboard_path": "/api/v1/"
+    },
+    "jwt":{
+      "secret": "Nuf#jf97^f%AoL05!"
+    },
+    "ip": "localhost",
+    "port": "8350",
+    "loggly": {
+        "token": "",
+        "subdomain": ""
+    },
+    "log_level": "error"
+}

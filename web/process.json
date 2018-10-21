@@ -1,0 +1,10 @@
+{
+    "apps":[
+      {
+        "name":"Tambook-Admin-Dashboard",
+        "script":"umi dev",
+        "autorestart":true,
+        "restart_delay":1000
+      }
+    ]
+  }
