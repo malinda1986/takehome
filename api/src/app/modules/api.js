@@ -1,6 +1,4 @@
 const express = require('express');
-const swaggerUi = require('swagger-ui-express');
-const swaggerDocument = require('../../../APIdoc/swagger.json');
 
 const api = require('../api');
 const config = require('../config');
@@ -13,9 +11,6 @@ const apiRoutes = function(middleware) {
         const {api: {cors, errorHandler}} = middleware;
         // enable CORS
         router.use(cors());
-
-        //API Documentation api
-        router.use('/apidoc', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
         console.log('app=======',`${app_path}/invoice`)
 
