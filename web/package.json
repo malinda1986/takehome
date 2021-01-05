@@ -5,7 +5,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "antd": "^3.9.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "d3-shape": "^1.2.2",
     "draftjs-to-html": "^0.8.4",
