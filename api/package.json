@@ -41,7 +41,7 @@
     "morgan": "^1.7.0",
     "nconf": "0.8.4",
     "node-uuid": "^1.4.7",
-    "nodemailer": "^4.4.1",
+    "nodemailer": "^6.4.16",
     "passport": "^0.3.2",
     "passport-jwt": "^3.0.0",
     "passport-local": "^1.0.0",
